@@ -600,3 +600,25 @@ body.mermaid-viewer-open .viewer-canvas img {
   border-color: rgba(96, 165, 250, 0.38);
   background: rgba(96, 165, 250, 0.18);
 }
+
+/* ============================================
+   Tools page grid layout
+   ============================================ */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0 32px;
+}
+
+@media (max-width: 960px) {
+  .tool-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .tool-grid {
+    grid-template-columns: 1fr;
+  }
+}

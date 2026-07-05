@@ -3093,6 +3093,16 @@ Sitemap: ${siteUrl}/sitemap.xml
             text: 'Vibe 故事',
             link: '/zh-cn/vibe-stories/story-1',
             activeMatch: '/zh-cn/vibe-stories/'
+          },
+          {
+            text: '🛠️ 工具推荐',
+            link: '/zh-cn/tools/',
+            activeMatch: '/zh-cn/tools/'
+          },
+          {
+            text: '🎓 咨询服务',
+            link: '/zh-cn/consulting/',
+            activeMatch: '/zh-cn/consulting/'
           }
         ],
         sidebar: {
@@ -3715,6 +3725,16 @@ Sitemap: ${siteUrl}/sitemap.xml
             text: 'Vibe Stories',
             link: '/en/vibe-stories/story-1',
             activeMatch: '/en/vibe-stories/'
+          },
+          {
+            text: '🛠️ Tools',
+            link: '/en/tools/',
+            activeMatch: '/en/tools/'
+          },
+          {
+            text: '🎓 Coaching',
+            link: '/en/consulting/',
+            activeMatch: '/en/consulting/'
           }
         ],
         sidebar: {

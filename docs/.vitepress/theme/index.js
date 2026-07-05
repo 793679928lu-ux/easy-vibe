@@ -185,6 +185,8 @@ import TabItem from './components/TabItem.vue'
 import AppendixFlowMap from './components/AppendixFlowMap.vue'
 
 import CopyOrDownloadAsMarkdownButtons from './components/CopyOrDownloadAsMarkdownButtons/index.vue'
+import ToolCard from './components/ToolCard.vue'
+import MonetizationBanner from './components/MonetizationBanner.vue'
 
 const appendixComponentModules = {
   './components/appendix/terminal-intro/TerminalGrid.vue': () => import('./components/appendix/terminal-intro/TerminalGrid.vue'),
@@ -1270,6 +1272,8 @@ export default {
     app.component('SummaryCard', SummaryCard)
     app.component('Tabs', Tabs)
     app.component('TabItem', TabItem)
+    app.component('ToolCard', ToolCard)
+    app.component('MonetizationBanner', MonetizationBanner)
     registerAppendixComponents(app)
 
 

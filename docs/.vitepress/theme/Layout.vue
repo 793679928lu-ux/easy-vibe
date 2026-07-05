@@ -715,7 +715,10 @@ watch(sidebarCollapsed, (collapsed) => {
   </ClientOnly>
   <ClientOnly>
     <ReadingProgress v-if="!isHomePage && !isWelcomePage" />
-  </ClientOnly>  
+  </ClientOnly>
+  <ClientOnly>
+    <MonetizationBanner />
+  </ClientOnly>
 </template>
 
 <style>
