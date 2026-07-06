@@ -184,6 +184,7 @@ import TabItem from './components/TabItem.vue'
 // Appendix Navigation Component
 import AppendixFlowMap from './components/AppendixFlowMap.vue'
 
+import { inject } from '@vercel/analytics'
 import CopyOrDownloadAsMarkdownButtons from './components/CopyOrDownloadAsMarkdownButtons/index.vue'
 import ToolCard from './components/ToolCard.vue'
 import MonetizationBanner from './components/MonetizationBanner.vue'
@@ -1274,6 +1275,7 @@ export default {
     app.component('TabItem', TabItem)
     app.component('ToolCard', ToolCard)
     app.component('MonetizationBanner', MonetizationBanner)
+    inject()
     registerAppendixComponents(app)
 
 
