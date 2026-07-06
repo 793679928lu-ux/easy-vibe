@@ -110,12 +110,12 @@ import ToolCard from '../../.vitepress/theme/components/ToolCard.vue'
 <ToolCard
   name="Zeabur"
   tag="🎁 高返佣"
-  description="国产 PaaS，全栈一键部署，国内访问快。**五级推荐计划，佣金最高 100%！**"
+  description="国产 PaaS，全栈一键部署，国内访问快。**结账时输入推荐码 793679928lu-ux，立享 10% 折扣！** 五级推荐计划，佣金最高 100%"
   url="https://zeabur.com/"
   pricing="免费版 | Pro $5/月起"
   pros="国内访问快 / 中文 / 全栈部署 / 佣金最高 100%"
   affiliateLink="https://zeabur.com/docs/zh-CN/rewards/referral"
-  affiliateLabel="💰 被推荐者付费的 20%-100% 给你"
+  affiliateLabel="💰 推荐码：793679928lu-ux · 佣金 20%-100%"
 />
 
 <ToolCard

@@ -107,12 +107,12 @@ import ToolCard from '../../.vitepress/theme/components/ToolCard.vue'
 <ToolCard
   name="Zeabur"
   tag="🎁 High Commission"
-  description="PaaS with great China access. One-click full-stack deploy. **5-tier referral: 20%-100% commission!**"
+  description="PaaS with great China access. **Use referral code 793679928lu-ux at checkout for 10% off!** 5-tier referral: up to 100% commission"
   url="https://zeabur.com/"
   pricing="Free tier | Pro from $5/mo"
   pros="Fast in China / Chinese support / Full-stack / Up to 100% commission"
   affiliateLink="https://zeabur.com/docs/en-US/rewards/referral"
-  affiliateLabel="💰 20%-100% of referred spend"
+  affiliateLabel="💰 Code: 793679928lu-ux · 20%-100% commission"
 />
 
 <ToolCard

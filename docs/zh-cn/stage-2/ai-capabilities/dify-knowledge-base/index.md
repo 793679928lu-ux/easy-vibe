@@ -1042,3 +1042,5 @@ def proxy_request(path):
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=LISTEN_PORT, debug=True)
 ```
+
+<InlineReferral tool="Dify" action="注册 Dify 开始搭建" url="https://dify.ai/" benefit="开源 LLM 应用平台，可视化搭建 AI Agent。支持私有化部署，联盟返佣高达 50%。" />

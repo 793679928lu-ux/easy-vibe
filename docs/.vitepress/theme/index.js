@@ -188,6 +188,7 @@ import { inject } from '@vercel/analytics'
 import CopyOrDownloadAsMarkdownButtons from './components/CopyOrDownloadAsMarkdownButtons/index.vue'
 import ToolCard from './components/ToolCard.vue'
 import MonetizationBanner from './components/MonetizationBanner.vue'
+import InlineReferral from './components/InlineReferral.vue'
 
 const appendixComponentModules = {
   './components/appendix/terminal-intro/TerminalGrid.vue': () => import('./components/appendix/terminal-intro/TerminalGrid.vue'),
@@ -1275,6 +1276,7 @@ export default {
     app.component('TabItem', TabItem)
     app.component('ToolCard', ToolCard)
     app.component('MonetizationBanner', MonetizationBanner)
+    app.component('InlineReferral', InlineReferral)
     inject()
     registerAppendixComponents(app)
 
