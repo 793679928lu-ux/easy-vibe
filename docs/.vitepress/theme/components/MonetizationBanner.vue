@@ -33,10 +33,10 @@ function dismiss(days = 7) {
         <div class="cta-content">
           <div class="cta-icon">🚀</div>
           <div class="cta-text">
-            <div class="cta-title">想更快上手 AI 编程？</div>
-            <div class="cta-desc">1v1 辅导 · 企业内训 · 项目陪跑</div>
+            <div class="cta-title">🎁 免费领 AI 编程资源</div>
+            <div class="cta-desc">Prompt 速查表 · 工具大全 · 模板包</div>
           </div>
-          <a href="/zh-cn/consulting/" class="cta-btn">了解详情</a>
+          <a href="/zh-cn/resources/" class="cta-btn">免费领取</a>
         </div>
         <div class="cta-progress">
           <div class="cta-progress-bar"></div>

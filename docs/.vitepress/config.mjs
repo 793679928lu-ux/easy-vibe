@@ -3095,6 +3095,11 @@ Sitemap: ${siteUrl}/sitemap.xml
             activeMatch: '/zh-cn/vibe-stories/'
           },
           {
+            text: '🎁 免费资源',
+            link: '/zh-cn/resources/',
+            activeMatch: '/zh-cn/resources/'
+          },
+          {
             text: '🛠️ 工具推荐',
             link: '/zh-cn/tools/',
             activeMatch: '/zh-cn/tools/'
